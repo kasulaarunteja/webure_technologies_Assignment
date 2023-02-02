@@ -27,7 +27,10 @@ const Navbar = () => {
             <a href="#">About us</a>
           </li>
           <li>
-            <a href="#">Service</a>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Careers</a>
           </li>
           <li>
             <a href="#">ROI Stroies</a>
@@ -38,7 +41,7 @@ const Navbar = () => {
           <li>
             <a href="#">Contact Us</a>
           </li>
-          <button className="button">Lets talk</button>
+          <button className="button">Let's Talk</button>
         </ul>
       </nav>
     </div>
