@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+/* Navbar css */
+
 body {
   background-color:white;
   font-family: 'Raleway', sans-serif;
@@ -68,3 +70,16 @@ border: 1px solid rgba(137, 77, 234, 0.5);
 border-radius: 80px;
 }
 
+
+/* features */
+.features{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fe-box >img{
+  height: 100px;
+  width: 55%;
+}
