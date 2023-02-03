@@ -14,7 +14,7 @@ const Services = () => {
       <div id="rightside">
           <div className="fee-box">
             <img src="imgs/dfasdfas.png" alt="consult" />
-            <h4>consult</h4>
+            <h4>Consult</h4>
             <p>Leverage agile framework to provide a robust high level synopsys overviews</p>
           </div>
           <div className="fee-box">
