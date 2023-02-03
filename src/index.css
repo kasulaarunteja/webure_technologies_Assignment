@@ -207,7 +207,9 @@ p {
   color: #a9a9a9;
 }
 
-.desig{
+/* design */
+
+.desig {
   display: grid;
   margin: 30px 0;
   grid-template-columns: repeat(4, 2fr);
@@ -215,33 +217,86 @@ p {
   padding-left: 110px;
 }
 
-.detail{
+.detail {
   width: 270px;
   height: 270;
-  background: #FFFFFF;
-box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.12);
-border-radius: 8.43641px;
-justify-content: space-evenly;
-
+  background: #ffffff;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.12);
+  border-radius: 8.43641px;
+  justify-content: space-evenly;
 }
 
-.detail>img{
+.detail > img {
   margin-top: 40px;
   width: 80px;
   height: 80px;
 }
 
-.detail>p{
-    margin-bottom: 25px;
+.detail > p {
+  margin-bottom: 25px;
 }
-.detail>h5{
-font-size: 26px;
-text-align: center;
-color: #040404;
-
+.detail > h5 {
+  font-size: 26px;
+  text-align: center;
+  color: #040404;
 }
 
-.detail:nth-child(1){
-  background-color: rgb(63,5,152);
+.detail:nth-child(1) {
+  background-color: rgb(63, 5, 152);
   color: white;
+}
+
+/* last page */
+
+.head {
+  display: grid;
+  margin: 30px 0;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 35px;
+  padding-left: 40px;
+}
+
+.bods {
+  background: #ffffff;
+  box-shadow: 40px 0px 70px rgba(123, 67, 67, 0.07),
+    -40px 100px 70px rgba(122, 79, 79, 0.07);
+  border-radius: 6px;
+  justify-content: space-evenly;
+}
+
+.bods > img {
+  width: 390px;
+  height: 300px;
+}
+
+.bods > h5 {
+  font-size: 15px;
+  text-align: center;
+  color: #040404;
+}
+
+.bods:nth-child(6) {
+  padding-top: 25px;
+  padding-left: 25px;
+  text-align: left;
+  color: rgb(241, 114, 22);
+}
+.bods:nth-child(6) > h5 {
+  text-align: left;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+  color: #282c4b;
+}
+
+.bods >button{
+    width: 143px;
+    height: 55px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #FF698D;
+    border-radius: 80px;
 }

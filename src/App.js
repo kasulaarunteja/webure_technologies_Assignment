@@ -6,6 +6,7 @@ import Services from './Components/Services';
 import Banner from './Components/Banner';
 import About from './Components/About';
 import Design from './Components/Design';
+import Lastpage from './Components/Lastpage';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <About/>
       <b/>
       <Design/>
+      <br/>
+      <Lastpage/>
     </div>
   );
 }
