@@ -165,22 +165,46 @@ a {
   /* flex-wrap: wrap; */
 }
 
-.boxdiv>h2,h6,p{
-  color: rgb(255,255,255);
+.boxdiv > h2,
+h6,
+p {
+  color: rgb(255, 255, 255);
 }
 
-.boxdiv{
+.boxdiv {
   text-align: center;
-   background-color:rgb(60,80,224);
-   border-radius: 15px;
+  background-color: rgb(60, 80, 224);
+  border-radius: 15px;
 }
 
-.boxdiv:nth-child(2){
-  background-color: rgb(255,86,112);
+.boxdiv:nth-child(2) {
+  background-color: rgb(255, 86, 112);
 }
-.boxdiv:nth-child(3){
-  background-color: rgb(253,180,0);
+.boxdiv:nth-child(3) {
+  background-color: rgb(253, 180, 0);
 }
-.boxdiv:nth-child(4){
-  background-color: rgb(98,113,147);
+.boxdiv:nth-child(4) {
+  background-color: rgb(98, 113, 147);
 }
+
+/* about */
+
+#wht {
+  font-size: 35px;
+  color: #000000;
+}
+
+.text {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.text > span {
+  font-style: normal;
+  font-size: 23px;
+  line-height: 34px;
+  color: #a9a9a9;
+}
+
+
